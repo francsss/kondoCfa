@@ -1,0 +1,172 @@
+{"kind":"deck","id":"pr/bi798d","name":"Deck"}
+{"kind":"layout","layoutId":"a3a206b1-b517-4608-802e-3447d209030e","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"5499c11c-e819-4c30-a0a0-b006a6670f07","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/v338e8","slide":1,"title":"Kondo MVP","textShapes":8}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":1,"text":"Kondo MVP","textPreview":"Kondo MVP","textChars":9,"textLines":1,"bbox":[42,42,220,42]}
+{"kind":"textbox","id":"sh/qd4vmtwr","slide":1,"text":"Cameroun -> Chine","textPreview":"Cameroun -> Chine","textChars":17,"textLines":1,"bbox":[300,42,320,42]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":1,"text":"Demande de budget initial","textPreview":"Demande de budget initial","textChars":25,"textLines":1,"bbox":[862,42,376,42]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":1,"text":"5 000 CNY pour valider le lancement opérationnel","textPreview":"5 000 CNY pour valider le lancement opérationnel","textChars":48,"textLines":1,"bbox":[42,180,980,220]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":1,"text":"Objectif: connecter les API MTN/Orange, mettre le site en ligne, tester les paiements réels et prouver le processus complet avant d'engager un capital plus important.","textPreview":"Objectif: connecter les API MTN/Orange, mettre le site en ligne, tester les paiements réels et prouver le processus complet avant d'engag...","textChars":166,"textLines":1,"bbox":[42,500,680,112]}
+{"kind":"shape","id":"sh/qpg3ex0n","slide":1,"bbox":[850,472,388,140]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":1,"text":"Approx.","textPreview":"Approx.","textChars":7,"textLines":1,"bbox":[884,494,120,30]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":1,"text":"400 000 FCFA","textPreview":"400 000 FCFA","textChars":12,"textLines":1,"bbox":[884,526,300,46]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":1,"text":"Hypothèse: 1 CNY ~= 80 FCFA","textPreview":"Hypothèse: 1 CNY ~= 80 FCFA","textChars":27,"textLines":1,"bbox":[884,580,290,26]}
+{"kind":"notes","id":"nt/v338e8","slide":1,"text":""}
+{"kind":"slide","id":"sl/b6736i","slide":2,"title":"Le produit encaisse au Cameroun et paie manuellement en Chine","textShapes":16}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":2,"text":"Le produit encaisse au Cameroun et paie manuellement en Chine","textPreview":"Le produit encaisse au Cameroun et paie manuellement en Chine","textChars":61,"textLines":1,"bbox":[42,38,780,92]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":2,"text":"Le site coordonne, trace et confirme les étapes. Le payout Chine reste manuel au depart.","textPreview":"Le site coordonne, trace et confirme les étapes. Le payout Chine reste manuel au depart.","textChars":88,"textLines":1,"bbox":[860,42,378,84]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":2,"text":"Kondo | budget de validation","textPreview":"Kondo | budget de validation","textChars":28,"textLines":1,"bbox":[42,664,420,24]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":2,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[1184,664,54,24]}
+{"kind":"shape","id":"sh/ra5gbq1o","slide":2,"bbox":[42,245,208,210]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":2,"text":"Client Cameroun","textPreview":"Client Cameroun","textChars":15,"textLines":1,"bbox":[60,269,172,58]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":2,"text":"L'utilisateur cree un transfert et choisit MTN ou Orange.","textPreview":"L'utilisateur cree un transfert et choisit MTN ou Orange.","textChars":57,"textLines":1,"bbox":[60,345,172,78]}
+{"kind":"shape","id":"sh/2t83itgf","slide":2,"bbox":[258,327,18,46]}
+{"kind":"shape","id":"sh/re1w7mp0","slide":2,"bbox":[284,245,208,210]}
+{"kind":"textbox","id":"sh/bulwval8","slide":2,"text":"API collection","textPreview":"API collection","textChars":14,"textLines":1,"bbox":[302,269,172,58]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":2,"text":"Le paiement FCFA est collecte vers le compte marchand.","textPreview":"Le paiement FCFA est collecte vers le compte marchand.","textChars":54,"textLines":1,"bbox":[302,345,172,78]}
+{"kind":"shape","id":"sh/p0bi9s36","slide":2,"bbox":[500,327,18,46]}
+{"kind":"shape","id":"sh/0fepkzup","slide":2,"bbox":[526,245,208,210]}
+{"kind":"textbox","id":"sh/bi9s36hc","slide":2,"text":"Back-office","textPreview":"Back-office","textChars":11,"textLines":1,"bbox":[544,269,172,58]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":2,"text":"L'admin voit le paiement confirme et la file d'opérations.","textPreview":"L'admin voit le paiement confirme et la file d'opérations.","textChars":58,"textLines":1,"bbox":[544,345,172,78]}
+{"kind":"shape","id":"sh/tovahoza","slide":2,"bbox":[742,327,18,46]}
+{"kind":"shape","id":"sh/032lszqt","slide":2,"bbox":[768,245,208,210]}
+{"kind":"textbox","id":"sh/b6xkf6dc","slide":2,"text":"Paiement Chine","textPreview":"Paiement Chine","textChars":14,"textLines":1,"bbox":[786,269,172,58]}
+{"kind":"textbox","id":"sh/il0rqd4v","slide":2,"text":"L'equipe paie le bénéficiaire via Alipay ou canal local.","textPreview":"L'equipe paie le bénéficiaire via Alipay ou canal local.","textChars":56,"textLines":1,"bbox":[786,345,172,78]}
+{"kind":"shape","id":"sh/ulwval87","slide":2,"bbox":[984,327,18,46]}
+{"kind":"shape","id":"sh/j6tovaho","slide":2,"bbox":[1010,245,208,210]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":2,"text":"Confirmation","textPreview":"Confirmation","textChars":12,"textLines":1,"bbox":[1028,269,172,58]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":2,"text":"Le transfert passe a Reussi dans le compte client.","textPreview":"Le transfert passe a Reussi dans le compte client.","textChars":50,"textLines":1,"bbox":[1028,345,172,78]}
+{"kind":"shape","id":"sh/uxc3ylc7","slide":2,"bbox":[42,578,1196,1]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":2,"text":"Conclusion","textPreview":"Conclusion","textChars":10,"textLines":1,"bbox":[42,602,160,28]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":2,"text":"Le premier budget doit financer la preuve du flux complet, pas une expansion commerciale massive.","textPreview":"Le premier budget doit financer la preuve du flux complet, pas une expansion commerciale massive.","textChars":97,"textLines":1,"bbox":[210,596,820,42]}
+{"kind":"notes","id":"nt/b6736i","slide":2,"text":""}
+{"kind":"slide","id":"sl/eps09a","slide":3,"title":"5 000 CNY suffisent pour une phase pilote contrôlée","textShapes":12}
+{"kind":"textbox","id":"sh/m94fu18j","slide":3,"text":"5 000 CNY suffisent pour une phase pilote contrôlée","textPreview":"5 000 CNY suffisent pour une phase pilote contrôlée","textChars":51,"textLines":1,"bbox":[42,38,780,92]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":3,"text":"Ce montant ne prétend pas couvrir tout le lancement legal et commercial. Il sert a réduire le risque avant l'étape suivante.","textPreview":"Ce montant ne prétend pas couvrir tout le lancement legal et commercial. Il sert a réduire le risque avant l'étape suivante.","textChars":124,"textLines":1,"bbox":[860,42,378,84]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":3,"text":"Kondo | budget de validation","textPreview":"Kondo | budget de validation","textChars":28,"textLines":1,"bbox":[42,664,420,24]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":3,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[1184,664,54,24]}
+{"kind":"shape","id":"sh/qxs72x4n","slide":3,"bbox":[42,220,350,278]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":3,"text":"Finir l'intégration","textPreview":"Finir l'intégration","textChars":19,"textLines":1,"bbox":[66,246,294,64]}
+{"kind":"textbox","id":"sh/83itgfml","slide":3,"text":"Configurer MTN/Orange, remplacer les mocks, verifier les webhooks et les references provider.","textPreview":"Configurer MTN/Orange, remplacer les mocks, verifier les webhooks et les references provider.","textChars":93,"textLines":1,"bbox":[66,338,296,104]}
+{"kind":"shape","id":"sh/fepkzupw","slide":3,"bbox":[440,220,350,278]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":3,"text":"Tester avec de vrais petits montants","textPreview":"Tester avec de vrais petits montants","textChars":36,"textLines":1,"bbox":[464,246,294,64]}
+{"kind":"textbox","id":"sh/oj2t83it","slide":3,"text":"Valider le debit client, la reception marchand, les ecarts et les erreurs possibles.","textPreview":"Valider le debit client, la reception marchand, les ecarts et les erreurs possibles.","textChars":84,"textLines":1,"bbox":[464,338,296,104]}
+{"kind":"shape","id":"sh/d4vmtwra","slide":3,"bbox":[838,220,350,278]}
+{"kind":"textbox","id":"sh/6dcbulwv","slide":3,"text":"Prouver le process admin","textPreview":"Prouver le process admin","textChars":24,"textLines":1,"bbox":[862,246,294,64]}
+{"kind":"textbox","id":"sh/vy90je9c","slide":3,"text":"S'assurer que l'equipe peut payer en Chine, confirmer, auditer et expliquer chaque transfert.","textPreview":"S'assurer que l'equipe peut payer en Chine, confirmer, auditer et expliquer chaque transfert.","textChars":93,"textLines":1,"bbox":[862,338,296,104]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":3,"text":"Message a faire passer","textPreview":"Message a faire passer","textChars":22,"textLines":1,"bbox":[42,566,300,30]}
+{"kind":"textbox","id":"sh/dsji5sne","slide":3,"text":"On demande un budget de validation rapide. Si les tests sont concluants, le vrai fonds de roulement pourra etre dimensionne avec des données réelles.","textPreview":"On demande un budget de validation rapide. Si les tests sont concluants, le vrai fonds de roulement pourra etre dimensionne avec des donn...","textChars":149,"textLines":1,"bbox":[42,600,1120,50]}
+{"kind":"notes","id":"nt/eps09a","slide":3,"text":""}
+{"kind":"slide","id":"sl/mcvwok","slide":4,"title":"Les 5 000 CNY couvrent les dépenses qui débloquent les tests","textShapes":30}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":4,"text":"Les 5 000 CNY couvrent les dépenses qui débloquent les tests","textPreview":"Les 5 000 CNY couvrent les dépenses qui débloquent les tests","textChars":60,"textLines":1,"bbox":[42,38,780,92]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":4,"text":"Repartition indicative, ajustable selon les frais imposes par MTN, Orange et les prestataires.","textPreview":"Repartition indicative, ajustable selon les frais imposes par MTN, Orange et les prestataires.","textChars":94,"textLines":1,"bbox":[860,42,378,84]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":4,"text":"Kondo | budget de validation","textPreview":"Kondo | budget de validation","textChars":28,"textLines":1,"bbox":[42,664,420,24]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":4,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[1184,664,54,24]}
+{"kind":"shape","id":"sh/58z25kb6","slide":4,"bbox":[42,172,780,58]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":4,"text":"Poste","textPreview":"Poste","textChars":5,"textLines":1,"bbox":[60,188,360,26]}
+{"kind":"textbox","id":"sh/n29gr2p8","slide":4,"text":"Budget CNY","textPreview":"Budget CNY","textChars":10,"textLines":1,"bbox":[542,188,130,26]}
+{"kind":"textbox","id":"sh/czed8v6p","slide":4,"text":"Équivalent","textPreview":"Équivalent","textChars":10,"textLines":1,"bbox":[684,188,146,26]}
+{"kind":"shape","id":"sh/5kb6xkf6","slide":4,"bbox":[42,230,780,58]}
+{"kind":"textbox","id":"sh/x4nap4r6","slide":4,"text":"Intégration API MTN/Orange","textPreview":"Intégration API MTN/Orange","textChars":26,"textLines":1,"bbox":[60,245,430,28]}
+{"kind":"textbox","id":"sh/8jqh0fep","slide":4,"text":"1 200 CNY","textPreview":"1 200 CNY","textChars":9,"textLines":1,"bbox":[542,245,130,28]}
+{"kind":"textbox","id":"sh/fyxobm58","slide":4,"text":"~96 000 FCFA","textPreview":"~96 000 FCFA","textChars":12,"textLines":1,"bbox":[684,245,146,28]}
+{"kind":"shape","id":"sh/qd4vmtwr","slide":4,"bbox":[42,288,780,58]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":4,"text":"Mise en production et outils","textPreview":"Mise en production et outils","textChars":28,"textLines":1,"bbox":[60,303,430,28]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":4,"text":"800 CNY","textPreview":"800 CNY","textChars":7,"textLines":1,"bbox":[542,303,130,28]}
+{"kind":"textbox","id":"sh/fa9w3m94","slide":4,"text":"~64 000 FCFA","textPreview":"~64 000 FCFA","textChars":12,"textLines":1,"bbox":[684,303,146,28]}
+{"kind":"shape","id":"sh/qpg3ex0n","slide":4,"bbox":[42,346,780,58]}
+{"kind":"textbox","id":"sh/1gvy90je","slide":4,"text":"Sécurité initiale et sauvegardes","textPreview":"Sécurité initiale et sauvegardes","textChars":32,"textLines":1,"bbox":[60,361,430,28]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":4,"text":"700 CNY","textPreview":"700 CNY","textChars":7,"textLines":1,"bbox":[542,361,130,28]}
+{"kind":"textbox","id":"sh/83itgfml","slide":4,"text":"~56 000 FCFA","textPreview":"~56 000 FCFA","textChars":12,"textLines":1,"bbox":[684,361,146,28]}
+{"kind":"shape","id":"sh/xobm58z2","slide":4,"bbox":[42,404,780,58]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":4,"text":"Tests réels, SIM, support et frais","textPreview":"Tests réels, SIM, support et frais","textChars":34,"textLines":1,"bbox":[60,419,430,28]}
+{"kind":"textbox","id":"sh/fil0rqd4","slide":4,"text":"700 CNY","textPreview":"700 CNY","textChars":7,"textLines":1,"bbox":[542,419,130,28]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":4,"text":"~56 000 FCFA","textPreview":"~56 000 FCFA","textChars":12,"textLines":1,"bbox":[684,419,146,28]}
+{"kind":"shape","id":"sh/x0nuxc3y","slide":4,"bbox":[42,462,780,58]}
+{"kind":"textbox","id":"sh/m94fu18j","slide":4,"text":"Dossier administratif préliminaire","textPreview":"Dossier administratif préliminaire","textChars":34,"textLines":1,"bbox":[60,477,430,28]}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":4,"text":"600 CNY","textPreview":"600 CNY","textChars":7,"textLines":1,"bbox":[542,477,130,28]}
+{"kind":"textbox","id":"sh/4r65wjud","slide":4,"text":"~48 000 FCFA","textPreview":"~48 000 FCFA","textChars":12,"textLines":1,"bbox":[684,477,146,28]}
+{"kind":"shape","id":"sh/xc3ylc7u","slide":4,"bbox":[42,520,780,58]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":4,"text":"Mini reserve Chine pour pilote","textPreview":"Mini reserve Chine pour pilote","textChars":30,"textLines":1,"bbox":[60,535,430,28]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":4,"text":"1 000 CNY","textPreview":"1 000 CNY","textChars":9,"textLines":1,"bbox":[542,535,130,28]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":4,"text":"~80 000 FCFA","textPreview":"~80 000 FCFA","textChars":12,"textLines":1,"bbox":[684,535,146,28]}
+{"kind":"shape","id":"sh/cvixczed","slide":4,"bbox":[884,190,354,180]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":4,"text":"Total demande","textPreview":"Total demande","textChars":13,"textLines":1,"bbox":[910,218,240,32]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":4,"text":"5 000 CNY","textPreview":"5 000 CNY","textChars":9,"textLines":1,"bbox":[910,260,260,58]}
+{"kind":"textbox","id":"sh/54zidony","slide":4,"text":"environ 400 000 FCFA","textPreview":"environ 400 000 FCFA","textChars":20,"textLines":1,"bbox":[910,326,260,30]}
+{"kind":"shape","id":"sh/cj6tovah","slide":4,"bbox":[884,404,354,134]}
+{"kind":"textbox","id":"sh/judg7ads","slide":4,"text":"Hypothèse de change","textPreview":"Hypothèse de change","textChars":19,"textLines":1,"bbox":[910,428,260,28]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":4,"text":"1 CNY ~= 80 FCFA. Les frais provider et administratifs doivent etre confirmés avant engagement final.","textPreview":"1 CNY ~= 80 FCFA. Les frais provider et administratifs doivent etre confirmés avant engagement final.","textChars":101,"textLines":1,"bbox":[910,466,280,52]}
+{"kind":"notes","id":"nt/mcvwok","slide":4,"text":""}
+{"kind":"slide","id":"sl/188dmx","slide":5,"title":"Ce budget valide le modele, il ne finance pas encore l'expansion","textShapes":15}
+{"kind":"textbox","id":"sh/epkzupwb","slide":5,"text":"Ce budget valide le modele, il ne finance pas encore l'expansion","textPreview":"Ce budget valide le modele, il ne finance pas encore l'expansion","textChars":64,"textLines":1,"bbox":[42,38,780,92]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":5,"text":"La distinction evite de promettre plus que ce que 5 000 CNY peuvent raisonnablement couvrir.","textPreview":"La distinction evite de promettre plus que ce que 5 000 CNY peuvent raisonnablement couvrir.","textChars":92,"textLines":1,"bbox":[860,42,378,84]}
+{"kind":"textbox","id":"sh/wval87ed","slide":5,"text":"Kondo | budget de validation","textPreview":"Kondo | budget de validation","textChars":28,"textLines":1,"bbox":[42,664,420,24]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":5,"text":"5","textPreview":"5","textChars":1,"textLines":1,"bbox":[1184,664,54,24]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":5,"text":"Ce qui est inclus","textPreview":"Ce qui est inclus","textChars":17,"textLines":1,"bbox":[42,172,360,42]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":5,"text":"Ce qui reste pour l'étape suivante","textPreview":"Ce qui reste pour l'étape suivante","textChars":34,"textLines":1,"bbox":[678,172,500,42]}
+{"kind":"shape","id":"sh/w7mp0bi9","slide":5,"bbox":[42,254,9,9]}
+{"kind":"textbox","id":"sh/7u54zido","slide":5,"text":"Connexion API et premiers tests techniques.","textPreview":"Connexion API et premiers tests techniques.","textChars":43,"textLines":1,"bbox":[66,246,476,58]}
+{"kind":"shape","id":"sh/ed8bat47","slide":5,"bbox":[42,328,9,9]}
+{"kind":"textbox","id":"sh/onyd0z61","slide":5,"text":"Site en ligne avec base de données production.","textPreview":"Site en ligne avec base de données production.","textChars":46,"textLines":1,"bbox":[66,320,476,58]}
+{"kind":"shape","id":"sh/d8v6psfi","slide":5,"bbox":[42,402,9,9]}
+{"kind":"textbox","id":"sh/6hcrmhk3","slide":5,"text":"Parcours de paiement et confirmation admin testes.","textPreview":"Parcours de paiement et confirmation admin testes.","textChars":50,"textLines":1,"bbox":[66,394,476,58]}
+{"kind":"shape","id":"sh/z25kb6xk","slide":5,"bbox":[42,476,9,9]}
+{"kind":"textbox","id":"sh/ovahoza1","slide":5,"text":"Petite reserve pour payer quelques transferts pilotes.","textPreview":"Petite reserve pour payer quelques transferts pilotes.","textChars":54,"textLines":1,"bbox":[66,468,476,58]}
+{"kind":"shape","id":"sh/dg7adsji","slide":5,"bbox":[678,254,9,9]}
+{"kind":"textbox","id":"sh/6tovahoz","slide":5,"text":"Capital de roulement important en Chine.","textPreview":"Capital de roulement important en Chine.","textChars":40,"textLines":1,"bbox":[702,246,486,58]}
+{"kind":"shape","id":"sh/vahoza1g","slide":5,"bbox":[678,328,9,9]}
+{"kind":"textbox","id":"sh/o7qpg3ex","slide":5,"text":"Formalisation complete et accompagnement legal approfondi.","textPreview":"Formalisation complete et accompagnement legal approfondi.","textChars":58,"textLines":1,"bbox":[702,320,486,58]}
+{"kind":"shape","id":"sh/dsji5sne","slide":5,"bbox":[678,402,9,9]}
+{"kind":"textbox","id":"sh/hk3q5o7q","slide":5,"text":"Marketing, acquisition clients et support à grande echelle.","textPreview":"Marketing, acquisition clients et support à grande echelle.","textChars":59,"textLines":1,"bbox":[702,394,486,58]}
+{"kind":"shape","id":"sh/oza1gvy9","slide":5,"bbox":[678,476,9,9]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":5,"text":"Audit sécurité externe complet et conformité avancee.","textPreview":"Audit sécurité externe complet et conformité avancee.","textChars":53,"textLines":1,"bbox":[702,468,486,58]}
+{"kind":"shape","id":"sh/6xkf6dcb","slide":5,"bbox":[42,598,1196,42]}
+{"kind":"textbox","id":"sh/hwfyxobm","slide":5,"text":"Décision attendue: autoriser une phase pilote limitée, puis recalculer le fonds necessaire avec les données de terrain.","textPreview":"Décision attendue: autoriser une phase pilote limitée, puis recalculer le fonds necessaire avec les données de terrain.","textChars":119,"textLines":1,"bbox":[60,607,1140,24]}
+{"kind":"notes","id":"nt/188dmx","slide":5,"text":""}
+{"kind":"slide","id":"sl/o4kwq5","slide":6,"title":"En 30 jours, le budget doit produire une preuve exploitable","textShapes":18}
+{"kind":"textbox","id":"sh/fu18jqh0","slide":6,"text":"En 30 jours, le budget doit produire une preuve exploitable","textPreview":"En 30 jours, le budget doit produire une preuve exploitable","textChars":59,"textLines":1,"bbox":[42,38,780,92]}
+{"kind":"textbox","id":"sh/4fu18jqh","slide":6,"text":"Chaque semaine livre une verification concrete avant de passer a la suivante.","textPreview":"Chaque semaine livre une verification concrete avant de passer a la suivante.","textChars":77,"textLines":1,"bbox":[860,42,378,84]}
+{"kind":"textbox","id":"sh/x0nuxc3y","slide":6,"text":"Kondo | budget de validation","textPreview":"Kondo | budget de validation","textChars":28,"textLines":1,"bbox":[42,664,420,24]}
+{"kind":"textbox","id":"sh/qxs72x4n","slide":6,"text":"6","textPreview":"6","textChars":1,"textLines":1,"bbox":[1184,664,54,24]}
+{"kind":"shape","id":"sh/fil0rqd4","slide":6,"bbox":[42,200,254,320]}
+{"kind":"textbox","id":"sh/83itgfml","slide":6,"text":"Semaine 1","textPreview":"Semaine 1","textChars":9,"textLines":1,"bbox":[62,226,170,28]}
+{"kind":"textbox","id":"sh/xobm58z2","slide":6,"text":"Acces provider","textPreview":"Acces provider","textChars":14,"textLines":1,"bbox":[62,268,190,44]}
+{"kind":"textbox","id":"sh/mtwra5gb","slide":6,"text":"Dossiers MTN/Orange, variables env, comptes marchands, plan de test.","textPreview":"Dossiers MTN/Orange, variables env, comptes marchands, plan de test.","textChars":68,"textLines":1,"bbox":[62,340,208,112]}
+{"kind":"shape","id":"sh/fepkzupw","slide":6,"bbox":[341,200,254,320]}
+{"kind":"textbox","id":"sh/7adsji5s","slide":6,"text":"Semaine 2","textPreview":"Semaine 2","textChars":9,"textLines":1,"bbox":[361,226,170,28]}
+{"kind":"textbox","id":"sh/epkzupwb","slide":6,"text":"Intégration","textPreview":"Intégration","textChars":11,"textLines":1,"bbox":[361,268,190,44]}
+{"kind":"textbox","id":"sh/pg3ex0nu","slide":6,"text":"Remplacement des mocks, webhooks, statuts provider, erreurs et journaux.","textPreview":"Remplacement des mocks, webhooks, statuts provider, erreurs et journaux.","textChars":72,"textLines":1,"bbox":[361,340,208,112]}
+{"kind":"shape","id":"sh/wval87ed","slide":6,"bbox":[640,200,254,320]}
+{"kind":"textbox","id":"sh/7mp0bi9s","slide":6,"text":"Semaine 3","textPreview":"Semaine 3","textChars":9,"textLines":1,"bbox":[660,226,170,28]}
+{"kind":"textbox","id":"sh/e1w7mp0b","slide":6,"text":"Production","textPreview":"Production","textChars":10,"textLines":1,"bbox":[660,268,190,44]}
+{"kind":"textbox","id":"sh/psfil0rq","slide":6,"text":"Déploiement, base de données, sauvegardes, monitoring et test sécurité initial.","textPreview":"Déploiement, base de données, sauvegardes, monitoring et test sécurité initial.","textChars":79,"textLines":1,"bbox":[660,340,208,112]}
+{"kind":"shape","id":"sh/w7mp0bi9","slide":6,"bbox":[939,200,254,320]}
+{"kind":"textbox","id":"sh/7u54zido","slide":6,"text":"Semaine 4","textPreview":"Semaine 4","textChars":9,"textLines":1,"bbox":[959,226,170,28]}
+{"kind":"textbox","id":"sh/ed8bat47","slide":6,"text":"Pilote","textPreview":"Pilote","textChars":6,"textLines":1,"bbox":[959,268,190,44]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":6,"text":"10 à 20 transferts limites, rapprochement manuel, rapport go/no-go.","textPreview":"10 à 20 transferts limites, rapprochement manuel, rapport go/no-go.","textChars":67,"textLines":1,"bbox":[959,340,208,112]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":6,"text":"Livrable final","textPreview":"Livrable final","textChars":14,"textLines":1,"bbox":[42,582,190,30]}
+{"kind":"textbox","id":"sh/4nap4r65","slide":6,"text":"Un rapport simple: paiements testes, erreurs observées, coûts réels, temps de traitement, décision de continuer ou non.","textPreview":"Un rapport simple: paiements testes, erreurs observées, coûts réels, temps de traitement, décision de continuer ou non.","textChars":119,"textLines":1,"bbox":[230,576,900,42]}
+{"kind":"notes","id":"nt/o4kwq5","slide":6,"text":""}
+{"kind":"slide","id":"sl/tk2obu","slide":7,"title":"La bonne décision est de financer le test, puis de mesurer","textShapes":14}
+{"kind":"textbox","id":"sh/nap4r65w","slide":7,"text":"La bonne décision est de financer le test, puis de mesurer","textPreview":"La bonne décision est de financer le test, puis de mesurer","textChars":58,"textLines":1,"bbox":[42,38,780,92]}
+{"kind":"textbox","id":"sh/cvixczed","slide":7,"text":"Les 5 000 CNY achetent de la certitude: technique, opérationnelle et financiere.","textPreview":"Les 5 000 CNY achetent de la certitude: technique, opérationnelle et financiere.","textChars":80,"textLines":1,"bbox":[860,42,378,84]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":7,"text":"Kondo | budget de validation","textPreview":"Kondo | budget de validation","textChars":28,"textLines":1,"bbox":[42,664,420,24]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":7,"text":"7","textPreview":"7","textChars":1,"textLines":1,"bbox":[1184,664,54,24]}
+{"kind":"shape","id":"sh/nyd0z610","slide":7,"bbox":[42,178,540,330]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":7,"text":"Demande","textPreview":"Demande","textChars":7,"textLines":1,"bbox":[78,214,160,30]}
+{"kind":"textbox","id":"sh/54zidony","slide":7,"text":"Autoriser 5 000 CNY","textPreview":"Autoriser 5 000 CNY","textChars":19,"textLines":1,"bbox":[78,258,410,68]}
+{"kind":"textbox","id":"sh/u9knih4b","slide":7,"text":"pour lancer l'intégration finale, deployer la plateforme et traiter un pilote limite sous controle.","textPreview":"pour lancer l'intégration finale, deployer la plateforme et traiter un pilote limite sous controle.","textChars":99,"textLines":1,"bbox":[78,356,410,86]}
+{"kind":"textbox","id":"sh/judg7ads","slide":7,"text":"Critères de succes","textPreview":"Critères de succes","textChars":18,"textLines":1,"bbox":[678,178,420,44]}
+{"kind":"shape","id":"sh/nyd0z610","slide":7,"bbox":[678,260,9,9]}
+{"kind":"textbox","id":"sh/udg7adsj","slide":7,"text":"Paiement MTN ou Orange collecte et trace de bout en bout.","textPreview":"Paiement MTN ou Orange collecte et trace de bout en bout.","textChars":57,"textLines":1,"bbox":[702,252,496,58]}
+{"kind":"shape","id":"sh/54zidony","slide":7,"bbox":[678,330,9,9]}
+{"kind":"textbox","id":"sh/cj6tovah","slide":7,"text":"Admin capable de confirmer le payout Chine sans ambiguite.","textPreview":"Admin capable de confirmer le payout Chine sans ambiguite.","textChars":58,"textLines":1,"bbox":[702,322,496,58]}
+{"kind":"shape","id":"sh/nap4r65w","slide":7,"bbox":[678,400,9,9]}
+{"kind":"textbox","id":"sh/upwb2hwf","slide":7,"text":"Aucune faille critique détectée pendant les tests initiaux.","textPreview":"Aucune faille critique détectée pendant les tests initiaux.","textChars":59,"textLines":1,"bbox":[702,392,496,58]}
+{"kind":"shape","id":"sh/5gbq1ory","slide":7,"bbox":[678,470,9,9]}
+{"kind":"textbox","id":"sh/cvixczed","slide":7,"text":"Couts et délais réels documentés pour dimensionner la suite.","textPreview":"Couts et délais réels documentés pour dimensionner la suite.","textChars":60,"textLines":1,"bbox":[702,462,496,58]}
+{"kind":"shape","id":"sh/jm1cfa9w","slide":7,"bbox":[42,594,1196,1]}
+{"kind":"textbox","id":"sh/u18jqh0f","slide":7,"text":"Prochaine étape apres accord","textPreview":"Prochaine étape apres accord","textChars":28,"textLines":1,"bbox":[42,618,330,26]}
+{"kind":"textbox","id":"sh/25kb6xkf","slide":7,"text":"finaliser les credentials provider et lancer le plan de test sur 30 jours.","textPreview":"finaliser les credentials provider et lancer le plan de test sur 30 jours.","textChars":74,"textLines":1,"bbox":[380,612,690,38]}
+{"kind":"notes","id":"nt/tk2obu","slide":7,"text":""}

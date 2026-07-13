@@ -1,0 +1,180 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  SUPER_ADMIN
+  ADMIN
+  SENDER
+}
+
+enum UserStatus {
+  ACTIVE
+  SUSPENDED
+  BLOCKED
+}
+
+enum TransferStatus {
+  CREATED
+  IN_PROGRESS
+  CANCELLED
+  SUCCESS
+}
+
+enum PaymentMethod {
+  ORANGE_MONEY
+  MTN_MOMO
+}
+
+enum PaymentProviderStatus {
+  PENDING
+  CONFIRMED
+  FAILED
+  CANCELLED
+}
+
+enum PaymentAttemptStatus {
+  CREATED
+  PENDING
+  SUCCESS
+  FAILED
+}
+
+model User {
+  id                 String      @id @default(cuid())
+  email              String      @unique
+  passwordHash       String
+  firstName          String
+  lastName           String
+  phone              String?
+  country            String?
+  role               Role        @default(SENDER)
+  status             UserStatus  @default(ACTIVE)
+  sentTransfers      Transfer[]  @relation("SenderTransfers")
+  confirmedPayments  Transfer[]  @relation("PaymentConfirmedBy")
+  completedPayouts   Transfer[]  @relation("PayoutCompletedBy")
+  cancelledTransfers Transfer[]  @relation("TransferCancelledBy")
+  recipients         Recipient[]
+  auditLogs          AuditLog[]  @relation("ActorAuditLogs")
+  createdAt          DateTime    @default(now())
+  updatedAt          DateTime    @updatedAt
+}
+
+model Transfer {
+  id                         String                @id @default(cuid())
+  refCode                    String                @unique
+  senderId                   String
+  sender                     User                  @relation("SenderTransfers", fields: [senderId], references: [id], onDelete: Cascade)
+  status                     TransferStatus        @default(CREATED)
+  amountXaf                  Int
+  exchangeRate               Decimal               @db.Decimal(10, 6)
+  feeXaf                     Int
+  totalXaf                   Int
+  payoutAmountCnyFen         Int
+  paymentMethod              PaymentMethod
+  payerCountryCode           String?
+  payerPhoneNational         String?
+  payerPhoneE164             String?
+  payerOperator              String?
+  paymentProviderStatus      PaymentProviderStatus @default(PENDING)
+  paymentProviderRequestId   String?
+  paymentProviderReference   String?
+  paymentInitiatedAt         DateTime?
+  paymentConfirmedAt         DateTime?
+  paymentConfirmedById       String?
+  paymentConfirmedBy         User?                 @relation("PaymentConfirmedBy", fields: [paymentConfirmedById], references: [id], onDelete: SetNull)
+  paymentFailureReason       String?
+  beneficiaryName            String
+  beneficiaryAlipayId        String
+  beneficiaryPhone           String?
+  purpose                    String?
+  alipayPayoutReference      String?
+  alipayPayoutCompletedAt    DateTime?
+  alipayPayoutCompletedById  String?
+  alipayPayoutCompletedBy    User?                 @relation("PayoutCompletedBy", fields: [alipayPayoutCompletedById], references: [id], onDelete: SetNull)
+  cancelReason               String?
+  cancelledAt                DateTime?
+  cancelledById              String?
+  cancelledBy                User?                 @relation("TransferCancelledBy", fields: [cancelledById], references: [id], onDelete: SetNull)
+  paymentAttempts            PaymentAttempt[]
+  createdAt                  DateTime              @default(now())
+  updatedAt                  DateTime              @updatedAt
+
+  @@index([senderId])
+  @@index([status])
+  @@index([createdAt])
+}
+
+model PaymentAttempt {
+  id                  String               @id @default(cuid())
+  transferId          String
+  transfer            Transfer             @relation(fields: [transferId], references: [id], onDelete: Cascade)
+  provider            PaymentMethod
+  payerOperator       String
+  payerCountryCode    String               @default("+237")
+  payerPhoneNational  String
+  payerPhoneE164      String
+  amountXaf           Int
+  currency            String               @default("XAF")
+  status              PaymentAttemptStatus @default(CREATED)
+  providerRequestId   String?              @unique
+  providerReference   String?
+  failureReason       String?
+  initiatedAt         DateTime?
+  succeededAt         DateTime?
+  failedAt            DateTime?
+  rawProviderResponse Json?
+  rawWebhookPayload   Json?
+  createdAt           DateTime             @default(now())
+  updatedAt           DateTime             @updatedAt
+
+  @@index([transferId])
+  @@index([provider])
+  @@index([status])
+  @@index([createdAt])
+}
+
+model AuditLog {
+  id         String   @id @default(cuid())
+  actorId    String?
+  actor      User?    @relation("ActorAuditLogs", fields: [actorId], references: [id], onDelete: SetNull)
+  action     String
+  entityType String
+  entityId   String
+  oldValue   Json?
+  newValue   Json?
+  ipAddress  String?
+  userAgent  String?
+  createdAt  DateTime @default(now())
+
+  @@index([actorId])
+  @@index([entityType, entityId])
+  @@index([createdAt])
+}
+
+model AppSetting {
+  id        String   @id @default(cuid())
+  key       String   @unique
+  value     Json
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Recipient {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  fullName  String
+  alipayId  String
+  phone     String?
+  country   String   @default("CN")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([userId])
+}
